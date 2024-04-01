@@ -1,0 +1,55 @@
+<div class="row">
+<h3 class="h3"> <mat-icon class="icon">soup_kitchen</mat-icon>Yum Yard
+  <button (click)="navigateToUser()" class="btn btn-dark" style="margin-left: 1000px; margin-bottom: 0.7rem;">USER</button>
+</h3>
+</div>
+<div class="row border border-secondary m-1 p-1">
+  <div class="col-2 " style="margin-top: -2rem;">
+    <img [src]="PizzaLogo" class="img" />
+    <h4 style="margin-top: 1rem; padding-left: 3rem">
+      <a [routerLink]="['pizzas']">Pizza</a>
+    </h4>
+  </div>
+
+  <div class="col-2"style="margin-top: -2rem;">
+    <img [src]="RollLogo" class="img1" />
+    <h4 style="margin-top: 1rem; padding-left: 3rem">
+      <a [routerLink]="['rolls']">Rolls</a>
+    </h4>
+  </div>
+
+  <div class="col-2"style="margin-top: -2rem;">
+    <img [src]="FriesLogo" class="img" />
+    <h4 style="margin-top: 1rem; padding-left: 3rem">
+      <a [routerLink]="['fries']">Fries</a>
+    </h4>
+  </div>
+
+  <div class="col-2"style="margin-top: -2rem;">
+    <img [src]="BurgerLogo" class="img" />
+    <h4 style="margin-top: 1rem; padding-left: 3rem">
+      <a [routerLink]="['Burger']">Burger</a>
+    </h4>
+  </div>
+
+  <div class="col-2"style="margin-top: -2rem;">
+    <img [src]="NoodlesLogo" class="img" />
+    <h4 style="margin-top: 1rem; padding-left: 3rem">
+      <a [routerLink]="['Burger']">Lasgana</a>
+    </h4>
+  </div>
+
+  <div class="col-2"style="margin-top: -2rem;">
+    <img [src]="PastaLogo" class="img" />
+    <h4 style="margin-top: 1rem; padding-left: 3rem">
+      <a [routerLink]="['Burger']">Pasta</a>
+    </h4>
+  </div>
+
+</div>
+
+
+
+<div class="border border-secondary m-1">
+  <router-outlet></router-outlet>
+</div>

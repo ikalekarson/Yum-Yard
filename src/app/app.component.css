@@ -1,0 +1,29 @@
+.h3 {
+  padding-bottom: 3rem;
+  background-color: rgb(243, 243, 243);
+  height: 4rem;
+}
+
+.icon {
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 2.6rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: rem;
+  padding-top: 4rem;
+  
+
+}
+
+a {
+  color: gray;
+  text-decoration: auto;
+  font-family: math;
+}
+
